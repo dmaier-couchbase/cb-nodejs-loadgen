@@ -19,7 +19,7 @@ We keep the tool simple and stupid. Multiple threads and workload patterns can b
 * Create/update JSON documents based on a template file
 * Work on documents with a specific document prefix
 
-# Implementation ideax
+# Implementation idea
 
 ```
 loadgen {--host=$host} {--bucket=$bucket} [--password=$password] [--prefix=$prefix] {--range_min=$min} {--range_min=$max} {--workload=[create|update|read]}  {--num_ops=$num} [--template=$template_file]
